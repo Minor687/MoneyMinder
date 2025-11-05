@@ -15,7 +15,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     const mockExpenses = [
-      { id: '1', title: 'Salary', amount: 5000, category: 'Salary', type: 'Income', date: '2024-01-01' },
+      { id: '1', title: 'Salary', amount: 10000, category: 'Salary', type: 'Income', date: '2024-01-01' },
       { id: '2', title: 'Groceries', amount: 150, category: 'Food', type: 'Expense', date: '2024-01-02' },
       { id: '3', title: 'Gas', amount: 80, category: 'Transportation', type: 'Expense', date: '2024-01-03' },
       { id: '4', title: 'Restaurant', amount: 120, category: 'Food', type: 'Expense', date: '2024-01-04' },
